@@ -15,7 +15,7 @@ function generateCard(name, email, id, role, roleInfo) {
 }
 
 function generateRole(data) {
-  switch (data.role) {
+  switch (data.getRole()) {
     case 'Manager':
       return 'Office number: ' + data.getOfficeNum();
     case 'Engineer':

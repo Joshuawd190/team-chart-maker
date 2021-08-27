@@ -23,6 +23,8 @@ After installation, run node index in the CLI and follow the prompts. Once you h
 
 ![Team Chart Generator in the CLI](assets/images/TCGDemo.png)
 
+<iframe src="https://drive.google.com/file/d/1L6rAVw3QyYRnO0lrXhBGtJEM0Ag6QD3O/preview" width="640" height="480"></iframe>
+
 ## License
 
 MIT License
