@@ -1,0 +1,23 @@
+{
+  "name": "team-chart-maker",
+  "version": "1.0.0",
+  "description": "An app to generate an html page containing team information",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Joshuawd190/team-chart-maker.git"
+  },
+  "author": "Joshua Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshuawd190/team-chart-maker/issues"
+  },
+  "homepage": "https://github.com/Joshuawd190/team-chart-maker#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6"
+  }
+}
