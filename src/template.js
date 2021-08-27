@@ -13,7 +13,7 @@ function generateCard(name,email,id,role,roleInfo){
     `
 }
 
-module.exports = function templateData(employees) {
+module.exports = function templateData(employees = []) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
