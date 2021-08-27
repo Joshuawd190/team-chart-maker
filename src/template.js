@@ -1,8 +1,10 @@
 function generateCard(name, email, id, role, roleInfo) {
   return `
-        <div>
+        <div class="card">
+        <div class="title">
         <h2>${name}</h2>
         <h3>${role}</h3>
+        </div>
         <ul>
         <li>ID: ${id}</li>
         <li>Email: <a href="mailto: ${email}">${email}</a></li>
@@ -34,7 +36,7 @@ module.exports = function templateData(employees) {
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-<header>
+<header class="header">
 <h1>My Team</h1>
 </header>
 <section> 
